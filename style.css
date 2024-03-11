@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    display: flex;
+}
+
+.selectdate{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#currentDateTime, #countdown, #daysLeft {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
